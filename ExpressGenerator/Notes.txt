@@ -1,0 +1,8 @@
+1. What is express-generator ? 
+- Quickly create an application skeleton
+
+2. How to install express-generator ? 
+> npx express-generator
+> npm install
+> npm start
+> Go to localhost:3000
