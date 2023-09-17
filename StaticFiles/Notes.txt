@@ -1,0 +1,13 @@
+Q. How to serve static files ?
+1. Place files in 'public' folder 
+2. Call upon specific files:
+Ex:
+http://localhost:3000/images/person.png   -> Try this
+http://localhost:3000/stylesheets/testcss.css   -> Try this
+http://localhost:3000/js/app.js
+http://localhost:3000/images/bg.png
+http://localhost:3000/hello.html
+
+Q. How to bind these static files  to the application ?
+const path = require('path')
+app.use('/static', express.static(path.join(__dirname, 'public')))
